@@ -1,0 +1,61 @@
+{
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Monaco",
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+
+        "**/*.ipch": true,
+        "**/*.sdf": true,
+        "**/*.opensdf": true,
+        "**/*.pdb": true,
+        "**/*.idb": true,
+        "**/*.ilk": true,
+        "**/*.tlog": true,
+        "**/*.obj": true,
+        "**/*.lib": true,
+        "**/*.exe": true,
+        "**/*.log": true,
+        "**/*.suo": true,
+        "**/*.lastbuildstate": true,
+        "**/*.xcuserdata": true,
+        "**/Thumb.db": true,
+
+        "**/*.a": true,
+        "**/*.so": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+
+        "**/*.ipch": true,
+        "**/*.sdf": true,
+        "**/*.opensdf": true,
+        "**/*.pdb": true,
+        "**/*.idb": true,
+        "**/*.ilk": true,
+        "**/*.tlog": true,
+        "**/*.obj": true,
+        "**/*.lib": true,
+        "**/*.exe": true,
+        "**/*.log": true,
+        "**/*.suo": true,
+        "**/*.lastbuildstate": true,
+        "**/*.xcuserdata": true,
+        "**/Thumb.db": true,
+
+        "**/*.a": true,
+        "**/*.so": true
+    },
+    "editor.minimap.enabled": false,
+    "files.autoGuessEncoding": true,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Default High Contrast",
+
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: WebKit, AllowShortBlocksOnASingleLine: true, AlwaysBreakTemplateDeclarations: true, ColumnLimit: 100, ConstructorInitializerIndentWidth: 0, PointerAlignment: Right, SpaceBeforeParens: Never, SpacesInParentheses: true, TabWidth: 4, UseTab: ForIndentation }"
+}
