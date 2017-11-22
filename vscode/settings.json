@@ -54,7 +54,6 @@
     "editor.minimap.enabled": false,
     "files.autoGuessEncoding": true,
     "editor.renderLineHighlight": "gutter",
-    "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Default High Contrast",
 
     "C_Cpp.clang_format_style": "{ BasedOnStyle: WebKit, AllowShortBlocksOnASingleLine: true, AlwaysBreakTemplateDeclarations: true, ColumnLimit: 100, ConstructorInitializerIndentWidth: 0, PointerAlignment: Right, SpaceBeforeParens: Never, SpacesInParentheses: true, TabWidth: 4, UseTab: ForIndentation }"
