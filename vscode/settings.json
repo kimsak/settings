@@ -59,5 +59,7 @@
     "C_Cpp.clang_format_style": "{ BasedOnStyle: WebKit, AllowShortBlocksOnASingleLine: true, AlwaysBreakTemplateDeclarations: true, ColumnLimit: 100, ConstructorInitializerIndentWidth: 0, PointerAlignment: Right, SpaceBeforeParens: Never, SpacesInParentheses: true, TabWidth: 4, UseTab: Never }",
     "workbench.editor.enablePreview": false,
     "workbench.panel.location": "bottom",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.tabCompletion": true
 }
+
