@@ -60,5 +60,6 @@
     "workbench.editor.enablePreview": false,
     "workbench.panel.location": "bottom",
     "editor.formatOnType": true,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "editor.tabCompletion": true
 }
