@@ -56,7 +56,7 @@
     "editor.renderLineHighlight": "gutter",
     "workbench.colorTheme": "Default High Contrast",
 
-    "C_Cpp.clang_format_style": "{ BasedOnStyle: WebKit, AllowShortBlocksOnASingleLine: true, AlignAfterOpenBracket: Align, AlwaysBreakTemplateDeclarations: true, ColumnLimit: 140, ConstructorInitializerIndentWidth: 0, PointerAlignment: Right, SpaceBeforeParens: Never, SpacesInParentheses: true, TabWidth: 4, UseTab: Never, BreakBeforeBraces: Custom, BraceWrapping: { AfterFunction: true, BeforeCatch: true, BeforeElse: true} }",
+    "C_Cpp.clang_format_style": "file",
     "workbench.editor.enablePreview": false,
     "editor.formatOnType": true,
     "editor.insertSpaces": true,
