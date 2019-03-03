@@ -14,4 +14,13 @@
 		"description": "Log output to console"
 	}
 */
+	"Insert Header Comment": {
+		"prefix": "///",
+		"body": [
+			"/**",
+			" *\t${1:Comment}",
+			" */"
+		],
+		"description": "関数のヘッダーコメントを挿入する"
+	}
 }
