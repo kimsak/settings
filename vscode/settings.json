@@ -60,7 +60,17 @@
     "workbench.editor.enablePreview": false,
     "editor.formatOnType": true,
     "editor.insertSpaces": true,
-    "editor.tabCompletion": true,
+    "editor.tabCompletion": "on",
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
+    "telemetry.enableCrashReporter": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "C_Cpp.updateChannel": "Insiders",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "window.zoomLevel": 0,
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-vscode.csharp"
+    }
 }
