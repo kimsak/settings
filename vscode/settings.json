@@ -71,6 +71,8 @@
     "terminal.integrated.rendererType": "dom",
     "window.zoomLevel": 0,
     "[csharp]": {
-        "editor.defaultFormatter": "ms-vscode.csharp"
-    }
+        "editor.defaultFormatter": "ms-dotnettools.csharp",
+        "editor.formatOnSave": true
+    },
+    "csharp.referencesCodeLens.enabled": false
 }
