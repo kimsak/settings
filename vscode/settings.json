@@ -74,5 +74,81 @@
         "editor.defaultFormatter": "ms-dotnettools.csharp",
         "editor.formatOnSave": true
     },
-    "csharp.referencesCodeLens.enabled": false
+    "csharp.referencesCodeLens.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "keywords": "#4aa8ff",
+        "strings": "#b19dfa",
+        "numbers": "#41c9ff",
+        "variables": "#95ffd7",
+        "functions": "#ffffff",
+
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.type",
+                    "entity.name.scope-resolution"
+                ],
+                "settings": {
+                    "foreground": "#d7ff26"
+                }
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#23aeff"
+                }
+            },
+            {
+                "scope": "entity.name.namespace",
+                "settings": {
+                    "foreground": "#26ff80"
+                }
+            },
+            {
+                "scope": "variable.other.enummember",
+                "settings": {
+                    "foreground": "#ffe134"
+                }
+            },
+            {
+                "scope": "variable.language.this",
+                "settings": {
+                    "foreground": "#b4966e"
+                }
+            },
+            {
+                "scope": [
+                    "variable.parameter",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "foreground": "#FFFFFF"
+                }
+            },
+            {
+                "scope": "entity.name.function.preprocessor",
+                "settings": {
+                    "foreground": "#ea00ff"
+                }
+            },
+            {
+                "scope": "keyword.operator.new",
+                "settings": {
+                    "foreground": "#b84dff"
+                }
+            },
+            {
+                "scope": "entity.other.inherited-class",
+                "settings": {
+                    "foreground": "#FF0000"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#3ab41b"
+                }
+            }
+        ]
+    }
 }
