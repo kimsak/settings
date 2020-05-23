@@ -75,18 +75,23 @@
         "editor.formatOnSave": true
     },
     "csharp.referencesCodeLens.enabled": false,
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#ffffff",
+        "editor.background": "#000000"
+    },
     "editor.tokenColorCustomizations": {
-        "keywords": "#4aa8ff",
+        "keywords": "#5a97e7",
         "strings": "#b19dfa",
-        "numbers": "#41c9ff",
-        "variables": "#95ffd7",
+        "numbers": "#5dd9ff",
+        "variables": "#caffeb",
         "functions": "#ffffff",
 
         "textMateRules": [
             {
                 "scope": [
                     "entity.name.type",
-                    "entity.name.scope-resolution"
+                    "entity.name.scope-resolution",
+                    "storage.type.cs"
                 ],
                 "settings": {
                     "foreground": "#d7ff26"
@@ -95,7 +100,7 @@
             {
                 "scope": "constant.language",
                 "settings": {
-                    "foreground": "#23aeff"
+                    "foreground": "#5dd9ff"
                 }
             },
             {
@@ -132,15 +137,9 @@
                 }
             },
             {
-                "scope": "keyword.operator.new",
+                "scope": ["keyword.operator.new","storage.modifier"],
                 "settings": {
                     "foreground": "#b84dff"
-                }
-            },
-            {
-                "scope": "entity.other.inherited-class",
-                "settings": {
-                    "foreground": "#FF0000"
                 }
             },
             {
