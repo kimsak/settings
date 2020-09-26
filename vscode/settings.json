@@ -72,6 +72,7 @@
     "window.zoomLevel": 0,
     "[csharp]": {
         "editor.defaultFormatter": "ms-dotnettools.csharp",
+        "editor.formatOnSaveMode": "modifications",
         "editor.formatOnSave": true
     },
     "csharp.referencesCodeLens.enabled": false,
