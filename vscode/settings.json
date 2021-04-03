@@ -151,5 +151,7 @@
             }
         ]
     },
-    "editor.renderIndentGuides": false
+    "editor.renderIndentGuides": false,
+    "workbench.editor.decorations.colors":false,
+    "workbench.editor.decorations.badges": false
 }
